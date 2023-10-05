@@ -35,7 +35,7 @@ const create = catchError(async (req, res) => {
     subject: "Verificate email for user app",
     html: `
       <h1>Hello ${firstName} ${lastName}</h1>
-      <b>Thanks for sign up in user app</b> <br>
+      <p>Thanks for sign up in the <b> Users APP</b></p> <br>
       <a href="${link}">${link}</a>
     `
   });
